@@ -76,10 +76,5 @@ After clonong project from git you need to do the following:
           
      php database/CreateTables.php
 
-### 7. You can Can seed your data to  your database by run  :
-      
-          
-     php database/seed.php
-
  ### 8. You can download postman collection to test the backend
  ### 9. Change your app url into base_url variable which exist in Environement
