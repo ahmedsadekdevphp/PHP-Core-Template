@@ -1,0 +1,237 @@
+[21-Oct-2024 21:19:07 UTC] PHP Warning:  require(C:\wamp64\www\airport-management/vendor/autoload.php): Failed to open stream: No such file or directory in C:\wamp64\www\airport-management\public\index.php on line 6
+[21-Oct-2024 21:19:07 UTC] PHP Stack trace:
+[21-Oct-2024 21:19:07 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[21-Oct-2024 21:19:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\wamp64\www\airport-management/vendor/autoload.php' (include_path='.;C:\php\pear') in C:\wamp64\www\airport-management\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\airport-management\public\index.php on line 6
+[27-Oct-2024 16:21:30 UTC] PHP Warning:  require(C:\wamp64\www\airport-management/vendor/autoload.php): Failed to open stream: No such file or directory in C:\wamp64\www\airport-management\public\index.php on line 6
+[27-Oct-2024 16:21:30 UTC] PHP Stack trace:
+[27-Oct-2024 16:21:30 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[27-Oct-2024 16:21:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\wamp64\www\airport-management/vendor/autoload.php' (include_path='.;C:\php\pear') in C:\wamp64\www\airport-management\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\airport-management\public\index.php on line 6
+[30-Oct-2024 10:59:39 UTC] PHP Warning:  require(C:\wamp64\www\airport-management/vendor/autoload.php): Failed to open stream: No such file or directory in C:\wamp64\www\airport-management\public\index.php on line 6
+[30-Oct-2024 10:59:39 UTC] PHP Stack trace:
+[30-Oct-2024 10:59:39 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[30-Oct-2024 10:59:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\wamp64\www\airport-management/vendor/autoload.php' (include_path='.;C:\php\pear') in C:\wamp64\www\airport-management\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\airport-management\public\index.php on line 6
+[30-Oct-2024 11:27:49 UTC] PHP Fatal error:  Uncaught Exception: Redis connection failed: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\wamp64\www\airport-management\app\Services\RedisConnection.php:24
+Stack trace:
+#0 C:\wamp64\www\airport-management\app\Services\RedisConnection.php(10): App\Services\RedisConnection->connect()
+#1 C:\wamp64\www\airport-management\app\Services\RedisConnection.php(32): App\Services\RedisConnection->__construct()
+#2 C:\wamp64\www\airport-management\app\Services\Session.php(14): App\Services\RedisConnection::getInstance()
+#3 C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php(19): App\Services\Session->__construct()
+#4 C:\wamp64\www\airport-management\core\Router.php(279): App\Middlewares\RateLimitMiddleware->__construct()
+#5 C:\wamp64\www\airport-management\core\Router.php(239): Core\Router->executeMiddleware('RateLimitMiddle...')
+#6 C:\wamp64\www\airport-management\core\Router.php(66): Core\Router->handleMiddleware(Array, Array)
+#7 C:\wamp64\www\airport-management\public\index.php(13): Core\Router->dispatch('register')
+#8 {main}
+  thrown in C:\wamp64\www\airport-management\app\Services\RedisConnection.php on line 24
+[30-Oct-2024 11:32:12 UTC] PHP Fatal error:  Uncaught Exception: Redis connection failed: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\wamp64\www\airport-management\app\Services\RedisConnection.php:24
+Stack trace:
+#0 C:\wamp64\www\airport-management\app\Services\RedisConnection.php(10): App\Services\RedisConnection->connect()
+#1 C:\wamp64\www\airport-management\app\Services\RedisConnection.php(32): App\Services\RedisConnection->__construct()
+#2 C:\wamp64\www\airport-management\app\Services\Session.php(14): App\Services\RedisConnection::getInstance()
+#3 C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php(19): App\Services\Session->__construct()
+#4 C:\wamp64\www\airport-management\core\Router.php(279): App\Middlewares\RateLimitMiddleware->__construct()
+#5 C:\wamp64\www\airport-management\core\Router.php(239): Core\Router->executeMiddleware('RateLimitMiddle...')
+#6 C:\wamp64\www\airport-management\core\Router.php(66): Core\Router->handleMiddleware(Array, Array)
+#7 C:\wamp64\www\airport-management\public\index.php(13): Core\Router->dispatch('register')
+#8 {main}
+  thrown in C:\wamp64\www\airport-management\app\Services\RedisConnection.php on line 24
+[30-Oct-2024 11:35:06 UTC] PHP Fatal error:  Uncaught Exception: Redis connection failed: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\wamp64\www\airport-management\app\Services\RedisConnection.php:24
+Stack trace:
+#0 C:\wamp64\www\airport-management\app\Services\RedisConnection.php(10): App\Services\RedisConnection->connect()
+#1 C:\wamp64\www\airport-management\app\Services\RedisConnection.php(32): App\Services\RedisConnection->__construct()
+#2 C:\wamp64\www\airport-management\app\Services\Session.php(14): App\Services\RedisConnection::getInstance()
+#3 C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php(19): App\Services\Session->__construct()
+#4 C:\wamp64\www\airport-management\core\Router.php(279): App\Middlewares\RateLimitMiddleware->__construct()
+#5 C:\wamp64\www\airport-management\core\Router.php(239): Core\Router->executeMiddleware('RateLimitMiddle...')
+#6 C:\wamp64\www\airport-management\core\Router.php(66): Core\Router->handleMiddleware(Array, Array)
+#7 C:\wamp64\www\airport-management\public\index.php(13): Core\Router->dispatch('register')
+#8 {main}
+  thrown in C:\wamp64\www\airport-management\app\Services\RedisConnection.php on line 24
+[30-Oct-2024 11:36:19 UTC] PHP Fatal error:  Uncaught Exception: Redis connection failed: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\wamp64\www\airport-management\app\Services\RedisConnection.php:24
+Stack trace:
+#0 C:\wamp64\www\airport-management\app\Services\RedisConnection.php(10): App\Services\RedisConnection->connect()
+#1 C:\wamp64\www\airport-management\app\Services\RedisConnection.php(32): App\Services\RedisConnection->__construct()
+#2 C:\wamp64\www\airport-management\app\Services\Session.php(14): App\Services\RedisConnection::getInstance()
+#3 C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php(19): App\Services\Session->__construct()
+#4 C:\wamp64\www\airport-management\core\Router.php(279): App\Middlewares\RateLimitMiddleware->__construct()
+#5 C:\wamp64\www\airport-management\core\Router.php(239): Core\Router->executeMiddleware('RateLimitMiddle...')
+#6 C:\wamp64\www\airport-management\core\Router.php(66): Core\Router->handleMiddleware(Array, Array)
+#7 C:\wamp64\www\airport-management\public\index.php(13): Core\Router->dispatch('register')
+#8 {main}
+  thrown in C:\wamp64\www\airport-management\app\Services\RedisConnection.php on line 24
+[30-Oct-2024 11:38:18 UTC] Email could not be sent. Mailer Error: Invalid address:  (From): 
+[30-Oct-2024 11:57:17 UTC] PHP Warning:  Undefined array key "count" in C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php on line 69
+[30-Oct-2024 11:57:17 UTC] PHP Stack trace:
+[30-Oct-2024 11:57:17 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[30-Oct-2024 11:57:17 UTC] PHP   2. Core\Router->dispatch($url = '/register') C:\wamp64\www\airport-management\public\index.php:13
+[30-Oct-2024 11:57:17 UTC] PHP   3. Core\Router->handleMiddleware($middleware = [], $roles = []) C:\wamp64\www\airport-management\core\Router.php:66
+[30-Oct-2024 11:57:17 UTC] PHP   4. Core\Router->executeMiddleware($middleware = 'RateLimitMiddleware') C:\wamp64\www\airport-management\core\Router.php:239
+[30-Oct-2024 11:57:17 UTC] PHP   5. App\Middlewares\RateLimitMiddleware->handle() C:\wamp64\www\airport-management\core\Router.php:280
+[30-Oct-2024 11:57:17 UTC] PHP   6. App\Middlewares\RateLimitMiddleware->processExistingSession($data = ['ip' => '127.0.0.1', 'user_id' => NULL, 'action' => '/register', 'last_action' => '2024-10-30 11:56:57'], $ip = '127.0.0.1', $action = '/register') C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:36
+[30-Oct-2024 11:57:17 UTC] PHP Warning:  Undefined array key "count" in C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php on line 100
+[30-Oct-2024 11:57:17 UTC] PHP Stack trace:
+[30-Oct-2024 11:57:17 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[30-Oct-2024 11:57:17 UTC] PHP   2. Core\Router->dispatch($url = '/register') C:\wamp64\www\airport-management\public\index.php:13
+[30-Oct-2024 11:57:17 UTC] PHP   3. Core\Router->handleMiddleware($middleware = [], $roles = []) C:\wamp64\www\airport-management\core\Router.php:66
+[30-Oct-2024 11:57:17 UTC] PHP   4. Core\Router->executeMiddleware($middleware = 'RateLimitMiddleware') C:\wamp64\www\airport-management\core\Router.php:239
+[30-Oct-2024 11:57:17 UTC] PHP   5. App\Middlewares\RateLimitMiddleware->handle() C:\wamp64\www\airport-management\core\Router.php:280
+[30-Oct-2024 11:57:17 UTC] PHP   6. App\Middlewares\RateLimitMiddleware->processExistingSession($data = ['ip' => '127.0.0.1', 'user_id' => NULL, 'action' => '/register', 'last_action' => '2024-10-30 11:56:57'], $ip = '127.0.0.1', $action = '/register') C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:36
+[30-Oct-2024 11:57:17 UTC] PHP   7. App\Middlewares\RateLimitMiddleware->updateSessionCount($data = ['ip' => '127.0.0.1', 'user_id' => NULL, 'action' => '/register', 'last_action' => '2024-10-30 11:56:57']) C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:76
+[30-Oct-2024 11:57:17 UTC] PHP Warning:  Undefined array key "id" in C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php on line 100
+[30-Oct-2024 11:57:17 UTC] PHP Stack trace:
+[30-Oct-2024 11:57:17 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[30-Oct-2024 11:57:17 UTC] PHP   2. Core\Router->dispatch($url = '/register') C:\wamp64\www\airport-management\public\index.php:13
+[30-Oct-2024 11:57:17 UTC] PHP   3. Core\Router->handleMiddleware($middleware = [], $roles = []) C:\wamp64\www\airport-management\core\Router.php:66
+[30-Oct-2024 11:57:17 UTC] PHP   4. Core\Router->executeMiddleware($middleware = 'RateLimitMiddleware') C:\wamp64\www\airport-management\core\Router.php:239
+[30-Oct-2024 11:57:17 UTC] PHP   5. App\Middlewares\RateLimitMiddleware->handle() C:\wamp64\www\airport-management\core\Router.php:280
+[30-Oct-2024 11:57:17 UTC] PHP   6. App\Middlewares\RateLimitMiddleware->processExistingSession($data = ['ip' => '127.0.0.1', 'user_id' => NULL, 'action' => '/register', 'last_action' => '2024-10-30 11:56:57'], $ip = '127.0.0.1', $action = '/register') C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:36
+[30-Oct-2024 11:57:17 UTC] PHP   7. App\Middlewares\RateLimitMiddleware->updateSessionCount($data = ['ip' => '127.0.0.1', 'user_id' => NULL, 'action' => '/register', 'last_action' => '2024-10-30 11:56:57']) C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:76
+[30-Oct-2024 11:57:17 UTC] PHP Deprecated:  Redis::get(): Passing null to parameter #1 ($key) of type string is deprecated in C:\wamp64\www\airport-management\app\Services\Session.php on line 60
+[30-Oct-2024 11:57:17 UTC] PHP Stack trace:
+[30-Oct-2024 11:57:17 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[30-Oct-2024 11:57:17 UTC] PHP   2. Core\Router->dispatch($url = '/register') C:\wamp64\www\airport-management\public\index.php:13
+[30-Oct-2024 11:57:17 UTC] PHP   3. Core\Router->handleMiddleware($middleware = [], $roles = []) C:\wamp64\www\airport-management\core\Router.php:66
+[30-Oct-2024 11:57:17 UTC] PHP   4. Core\Router->executeMiddleware($middleware = 'RateLimitMiddleware') C:\wamp64\www\airport-management\core\Router.php:239
+[30-Oct-2024 11:57:17 UTC] PHP   5. App\Middlewares\RateLimitMiddleware->handle() C:\wamp64\www\airport-management\core\Router.php:280
+[30-Oct-2024 11:57:17 UTC] PHP   6. App\Middlewares\RateLimitMiddleware->processExistingSession($data = ['ip' => '127.0.0.1', 'user_id' => NULL, 'action' => '/register', 'last_action' => '2024-10-30 11:56:57'], $ip = '127.0.0.1', $action = '/register') C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:36
+[30-Oct-2024 11:57:17 UTC] PHP   7. App\Middlewares\RateLimitMiddleware->updateSessionCount($data = ['ip' => '127.0.0.1', 'user_id' => NULL, 'action' => '/register', 'last_action' => '2024-10-30 11:56:57']) C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:76
+[30-Oct-2024 11:57:17 UTC] PHP   8. App\Services\Session->updateSession($count = 1, $id = NULL, $last_action = '2024-10-30 11:56:57') C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:100
+[30-Oct-2024 11:57:17 UTC] PHP   9. Redis->get($key = NULL) C:\wamp64\www\airport-management\app\Services\Session.php:60
+[30-Oct-2024 11:57:17 UTC] Email could not be sent. Mailer Error: Invalid address:  (From): 
+[30-Oct-2024 11:57:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:100) in C:\wamp64\www\airport-management\app\Services\Response.php on line 17
+[30-Oct-2024 11:57:17 UTC] PHP Stack trace:
+[30-Oct-2024 11:57:17 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[30-Oct-2024 11:57:17 UTC] PHP   2. Core\Router->dispatch($url = '/register') C:\wamp64\www\airport-management\public\index.php:13
+[30-Oct-2024 11:57:17 UTC] PHP   3. Core\Router->handleAction($action = 'RegisterController@register', $params = []) C:\wamp64\www\airport-management\core\Router.php:70
+[30-Oct-2024 11:57:17 UTC] PHP   4. Core\Router->handleControllerAction($action = 'RegisterController@register', $params = []) C:\wamp64\www\airport-management\core\Router.php:176
+[30-Oct-2024 11:57:17 UTC] PHP   5. call_user_func_array:{C:\wamp64\www\airport-management\core\Router.php:204}($callback = [0 => class App\Controllers\RegisterController { protected $data = [...] }, 1 => 'register'], $args = []) C:\wamp64\www\airport-management\core\Router.php:204
+[30-Oct-2024 11:57:17 UTC] PHP   6. App\Controllers\RegisterController->register() C:\wamp64\www\airport-management\core\Router.php:204
+[30-Oct-2024 11:57:17 UTC] PHP   7. App\Services\Response::jsonResponse($responseArray = ['status' => 200, 'message' => 'User registration successfully']) C:\wamp64\www\airport-management\app\Controllers\RegisterController.php:29
+[30-Oct-2024 11:57:17 UTC] PHP   8. header($header = 'Content-Type: application/json') C:\wamp64\www\airport-management\app\Services\Response.php:17
+[30-Oct-2024 12:03:32 UTC] PHP Warning:  Undefined array key "id" in C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php on line 66
+[30-Oct-2024 12:03:32 UTC] PHP Stack trace:
+[30-Oct-2024 12:03:32 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[30-Oct-2024 12:03:32 UTC] PHP   2. Core\Router->dispatch($url = '/login') C:\wamp64\www\airport-management\public\index.php:13
+[30-Oct-2024 12:03:32 UTC] PHP   3. Core\Router->handleMiddleware($middleware = [], $roles = []) C:\wamp64\www\airport-management\core\Router.php:66
+[30-Oct-2024 12:03:32 UTC] PHP   4. Core\Router->executeMiddleware($middleware = 'RateLimitMiddleware') C:\wamp64\www\airport-management\core\Router.php:239
+[30-Oct-2024 12:03:32 UTC] PHP   5. App\Middlewares\RateLimitMiddleware->handle() C:\wamp64\www\airport-management\core\Router.php:280
+[30-Oct-2024 12:03:32 UTC] PHP   6. App\Middlewares\RateLimitMiddleware->processExistingSession($data = ['ip' => '127.0.0.1', 'user_id' => NULL, 'action' => '/login', 'last_action' => '2024-10-30 12:01:38', 'count' => 1], $ip = '127.0.0.1', $action = '/login') C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:36
+[30-Oct-2024 12:03:32 UTC] PHP Deprecated:  Redis::get(): Passing null to parameter #1 ($key) of type string is deprecated in C:\wamp64\www\airport-management\app\Services\Session.php on line 59
+[30-Oct-2024 12:03:32 UTC] PHP Stack trace:
+[30-Oct-2024 12:03:32 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[30-Oct-2024 12:03:32 UTC] PHP   2. Core\Router->dispatch($url = '/login') C:\wamp64\www\airport-management\public\index.php:13
+[30-Oct-2024 12:03:32 UTC] PHP   3. Core\Router->handleMiddleware($middleware = [], $roles = []) C:\wamp64\www\airport-management\core\Router.php:66
+[30-Oct-2024 12:03:32 UTC] PHP   4. Core\Router->executeMiddleware($middleware = 'RateLimitMiddleware') C:\wamp64\www\airport-management\core\Router.php:239
+[30-Oct-2024 12:03:32 UTC] PHP   5. App\Middlewares\RateLimitMiddleware->handle() C:\wamp64\www\airport-management\core\Router.php:280
+[30-Oct-2024 12:03:32 UTC] PHP   6. App\Middlewares\RateLimitMiddleware->processExistingSession($data = ['ip' => '127.0.0.1', 'user_id' => NULL, 'action' => '/login', 'last_action' => '2024-10-30 12:01:38', 'count' => 1], $ip = '127.0.0.1', $action = '/login') C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:36
+[30-Oct-2024 12:03:32 UTC] PHP   7. App\Middlewares\RateLimitMiddleware->resetSession($sessionId = NULL) C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:66
+[30-Oct-2024 12:03:32 UTC] PHP   8. App\Services\Session->updateSession($count = 1, $id = NULL, $last_action = '2024-10-30 12:03:32') C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:89
+[30-Oct-2024 12:03:32 UTC] PHP   9. Redis->get($key = NULL) C:\wamp64\www\airport-management\app\Services\Session.php:59
+[30-Oct-2024 12:03:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\airport-management\app\Services\Session.php:59) in C:\wamp64\www\airport-management\app\Services\Response.php on line 17
+[30-Oct-2024 12:03:32 UTC] PHP Stack trace:
+[30-Oct-2024 12:03:32 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[30-Oct-2024 12:03:32 UTC] PHP   2. Core\Router->dispatch($url = '/login') C:\wamp64\www\airport-management\public\index.php:13
+[30-Oct-2024 12:03:32 UTC] PHP   3. Core\Router->handleAction($action = 'AuthController@login', $params = []) C:\wamp64\www\airport-management\core\Router.php:70
+[30-Oct-2024 12:03:32 UTC] PHP   4. Core\Router->handleControllerAction($action = 'AuthController@login', $params = []) C:\wamp64\www\airport-management\core\Router.php:176
+[30-Oct-2024 12:03:32 UTC] PHP   5. call_user_func_array:{C:\wamp64\www\airport-management\core\Router.php:204}($callback = [0 => class App\Controllers\AuthController { protected $data = [...]; private $user = class App\Models\User { ... } }, 1 => 'login'], $args = []) C:\wamp64\www\airport-management\core\Router.php:204
+[30-Oct-2024 12:03:32 UTC] PHP   6. App\Controllers\AuthController->login() C:\wamp64\www\airport-management\core\Router.php:204
+[30-Oct-2024 12:03:32 UTC] PHP   7. App\Services\Response::jsonResponse($responseArray = ['status' => 200, 'message' => 'You are Logged in', 'data' => ['token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhaXJwb3J0IiwiaWF0IjoxNzMwMjg5ODEyLCJleHAiOjE3MzAyOTM0MTIsInRva2VuX3ZlcnNpb24iOjI4LCJkYXRhIjp7ImlkIjoxLCJlbWFpbCI6InNkLmFobWVkLnNhZGVrQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiJ9fQ.rKyDGWPan0RiaId7ztTcRiPTw2VrSqT6EH3yx8xzmLc']]) C:\wamp64\www\airport-management\app\Controllers\AuthController.php:29
+[30-Oct-2024 12:03:32 UTC] PHP   8. header($header = 'Content-Type: application/json') C:\wamp64\www\airport-management\app\Services\Response.php:17
+[30-Oct-2024 12:06:57 UTC] PHP Warning:  Undefined array key "id" in C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php on line 66
+[30-Oct-2024 12:06:57 UTC] PHP Stack trace:
+[30-Oct-2024 12:06:57 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[30-Oct-2024 12:06:57 UTC] PHP   2. Core\Router->dispatch($url = '/login') C:\wamp64\www\airport-management\public\index.php:13
+[30-Oct-2024 12:06:57 UTC] PHP   3. Core\Router->handleMiddleware($middleware = [], $roles = []) C:\wamp64\www\airport-management\core\Router.php:66
+[30-Oct-2024 12:06:57 UTC] PHP   4. Core\Router->executeMiddleware($middleware = 'RateLimitMiddleware') C:\wamp64\www\airport-management\core\Router.php:239
+[30-Oct-2024 12:06:57 UTC] PHP   5. App\Middlewares\RateLimitMiddleware->handle() C:\wamp64\www\airport-management\core\Router.php:280
+[30-Oct-2024 12:06:57 UTC] PHP   6. App\Middlewares\RateLimitMiddleware->processExistingSession($data = ['ip' => '127.0.0.1', 'user_id' => NULL, 'action' => '/login', 'last_action' => '2024-10-30 12:01:38', 'count' => 1], $ip = '127.0.0.1', $action = '/login') C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:36
+[30-Oct-2024 12:06:57 UTC] PHP Deprecated:  Redis::get(): Passing null to parameter #1 ($key) of type string is deprecated in C:\wamp64\www\airport-management\app\Services\Session.php on line 59
+[30-Oct-2024 12:06:57 UTC] PHP Stack trace:
+[30-Oct-2024 12:06:57 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[30-Oct-2024 12:06:57 UTC] PHP   2. Core\Router->dispatch($url = '/login') C:\wamp64\www\airport-management\public\index.php:13
+[30-Oct-2024 12:06:57 UTC] PHP   3. Core\Router->handleMiddleware($middleware = [], $roles = []) C:\wamp64\www\airport-management\core\Router.php:66
+[30-Oct-2024 12:06:57 UTC] PHP   4. Core\Router->executeMiddleware($middleware = 'RateLimitMiddleware') C:\wamp64\www\airport-management\core\Router.php:239
+[30-Oct-2024 12:06:57 UTC] PHP   5. App\Middlewares\RateLimitMiddleware->handle() C:\wamp64\www\airport-management\core\Router.php:280
+[30-Oct-2024 12:06:57 UTC] PHP   6. App\Middlewares\RateLimitMiddleware->processExistingSession($data = ['ip' => '127.0.0.1', 'user_id' => NULL, 'action' => '/login', 'last_action' => '2024-10-30 12:01:38', 'count' => 1], $ip = '127.0.0.1', $action = '/login') C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:36
+[30-Oct-2024 12:06:57 UTC] PHP   7. App\Middlewares\RateLimitMiddleware->resetSession($sessionId = NULL) C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:66
+[30-Oct-2024 12:06:57 UTC] PHP   8. App\Services\Session->updateSession($count = 1, $id = NULL, $last_action = '2024-10-30 12:06:57') C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php:89
+[30-Oct-2024 12:06:57 UTC] PHP   9. Redis->get($key = NULL) C:\wamp64\www\airport-management\app\Services\Session.php:59
+[30-Oct-2024 12:06:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\airport-management\app\Services\Session.php:59) in C:\wamp64\www\airport-management\app\Services\Response.php on line 17
+[30-Oct-2024 12:06:57 UTC] PHP Stack trace:
+[30-Oct-2024 12:06:57 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[30-Oct-2024 12:06:57 UTC] PHP   2. Core\Router->dispatch($url = '/login') C:\wamp64\www\airport-management\public\index.php:13
+[30-Oct-2024 12:06:57 UTC] PHP   3. Core\Router->handleAction($action = 'AuthController@login', $params = []) C:\wamp64\www\airport-management\core\Router.php:70
+[30-Oct-2024 12:06:57 UTC] PHP   4. Core\Router->handleControllerAction($action = 'AuthController@login', $params = []) C:\wamp64\www\airport-management\core\Router.php:176
+[30-Oct-2024 12:06:57 UTC] PHP   5. call_user_func_array:{C:\wamp64\www\airport-management\core\Router.php:204}($callback = [0 => class App\Controllers\AuthController { protected $data = [...]; private $user = class App\Models\User { ... } }, 1 => 'login'], $args = []) C:\wamp64\www\airport-management\core\Router.php:204
+[30-Oct-2024 12:06:57 UTC] PHP   6. App\Controllers\AuthController->login() C:\wamp64\www\airport-management\core\Router.php:204
+[30-Oct-2024 12:06:57 UTC] PHP   7. App\Services\Response::jsonResponse($responseArray = ['status' => 200, 'message' => 'You are Logged in', 'data' => ['token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhaXJwb3J0IiwiaWF0IjoxNzMwMjkwMDE3LCJleHAiOjE3MzAyOTM2MTcsInRva2VuX3ZlcnNpb24iOjgsImRhdGEiOnsiaWQiOjEsImVtYWlsIjoic2QuYWhtZWQuc2FkZWtAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIn19.oluXYsFURiysLD-vBdvlFIellS0pyzkBKDflgSwoq68']]) C:\wamp64\www\airport-management\app\Controllers\AuthController.php:29
+[30-Oct-2024 12:06:57 UTC] PHP   8. header($header = 'Content-Type: application/json') C:\wamp64\www\airport-management\app\Services\Response.php:17
+[02-Nov-2024 22:05:13 UTC] PHP Warning:  Undefined variable $name in C:\wamp64\www\airport-management\app\Controllers\AirportsController.php on line 174
+[02-Nov-2024 22:05:13 UTC] PHP Stack trace:
+[02-Nov-2024 22:05:13 UTC] PHP   1. {main}() C:\wamp64\www\airport-management\public\index.php:0
+[02-Nov-2024 22:05:13 UTC] PHP   2. Core\Router->dispatch($url = '/redis/test') C:\wamp64\www\airport-management\public\index.php:13
+[02-Nov-2024 22:05:13 UTC] PHP   3. Core\Router->handleAction($action = 'AirportsController@redis', $params = []) C:\wamp64\www\airport-management\core\Router.php:70
+[02-Nov-2024 22:05:13 UTC] PHP   4. Core\Router->handleControllerAction($action = 'AirportsController@redis', $params = []) C:\wamp64\www\airport-management\core\Router.php:176
+[02-Nov-2024 22:05:13 UTC] PHP   5. call_user_func_array:{C:\wamp64\www\airport-management\core\Router.php:204}($callback = [0 => class App\Controllers\AirportsController { protected $data = NULL; private $airport = class App\Models\Airport { ... }; private $country = class App\Models\Country { ... }; private $redis = class Redis { ... } }, 1 => 'redis'], $args = []) C:\wamp64\www\airport-management\core\Router.php:204
+[02-Nov-2024 22:05:13 UTC] PHP   6. App\Controllers\AirportsController->redis() C:\wamp64\www\airport-management\core\Router.php:204
+[08-Nov-2024 23:25:18 UTC] PHP Fatal error:  Uncaught Exception: Redis connection failed: No connection could be made because the target machine actively refused it in C:\wamp64\www\airport-management\app\Services\RedisConnection.php:24
+Stack trace:
+#0 C:\wamp64\www\airport-management\app\Services\RedisConnection.php(10): App\Services\RedisConnection->connect()
+#1 C:\wamp64\www\airport-management\app\Services\RedisConnection.php(32): App\Services\RedisConnection->__construct()
+#2 C:\wamp64\www\airport-management\app\Services\Session.php(14): App\Services\RedisConnection::getInstance()
+#3 C:\wamp64\www\airport-management\app\Middlewares\RateLimitMiddleware.php(19): App\Services\Session->__construct()
+#4 C:\wamp64\www\airport-management\core\Router.php(279): App\Middlewares\RateLimitMiddleware->__construct()
+#5 C:\wamp64\www\airport-management\core\Router.php(239): Core\Router->executeMiddleware('RateLimitMiddle...')
+#6 C:\wamp64\www\airport-management\core\Router.php(66): Core\Router->handleMiddleware(Array, Array)
+#7 C:\wamp64\www\airport-management\public\index.php(13): Core\Router->dispatch('countries')
+#8 {main}
+  thrown in C:\wamp64\www\airport-management\app\Services\RedisConnection.php on line 24
+[09-Nov-2024 00:12:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Core\Database::prepare() in C:\wamp64\www\PHP Core Template\core\Validator.php:92
+Stack trace:
+#0 C:\wamp64\www\PHP Core Template\core\Validator.php(67): Core\Validator->isExists('users', 'email', 'ggj@a.com', NULL)
+#1 C:\wamp64\www\PHP Core Template\core\Validator.php(26): Core\Validator->applyRule('email', 'ggj@a.com', 'unique:users', Array, NULL)
+#2 C:\wamp64\www\PHP Core Template\app\Requests\RegisterRequest.php(16): Core\Validator->validate(Array, Array)
+#3 C:\wamp64\www\PHP Core Template\app\Controllers\RegisterController.php(25): App\Requests\RegisterRequest::validateRegistration(Array)
+#4 [internal function]: App\Controllers\RegisterController->register()
+#5 C:\wamp64\www\PHP Core Template\core\Router.php(204): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\PHP Core Template\core\Router.php(176): Core\Router->handleControllerAction('RegisterControl...', Array)
+#7 C:\wamp64\www\PHP Core Template\core\Router.php(70): Core\Router->handleAction('RegisterControl...', Array)
+#8 C:\wamp64\www\PHP Core Template\public\index.php(13): Core\Router->dispatch('register')
+#9 {main}
+  thrown in C:\wamp64\www\PHP Core Template\core\Validator.php on line 92
+[09-Nov-2024 00:12:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in C:\wamp64\www\PHP Core Template\core\Validator.php:99
+Stack trace:
+#0 C:\wamp64\www\PHP Core Template\core\Validator.php(99): PDOStatement->execute()
+#1 C:\wamp64\www\PHP Core Template\core\Validator.php(67): Core\Validator->isExists('users', 'email', 'ggj@a.com', NULL)
+#2 C:\wamp64\www\PHP Core Template\core\Validator.php(26): Core\Validator->applyRule('email', 'ggj@a.com', 'unique:users', Array, NULL)
+#3 C:\wamp64\www\PHP Core Template\app\Requests\RegisterRequest.php(16): Core\Validator->validate(Array, Array)
+#4 C:\wamp64\www\PHP Core Template\app\Controllers\RegisterController.php(25): App\Requests\RegisterRequest::validateRegistration(Array)
+#5 [internal function]: App\Controllers\RegisterController->register()
+#6 C:\wamp64\www\PHP Core Template\core\Router.php(204): call_user_func_array(Array, Array)
+#7 C:\wamp64\www\PHP Core Template\core\Router.php(176): Core\Router->handleControllerAction('RegisterControl...', Array)
+#8 C:\wamp64\www\PHP Core Template\core\Router.php(70): Core\Router->handleAction('RegisterControl...', Array)
+#9 C:\wamp64\www\PHP Core Template\public\index.php(13): Core\Router->dispatch('register')
+#10 {main}
+  thrown in C:\wamp64\www\PHP Core Template\core\Validator.php on line 99
+[09-Nov-2024 00:14:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'airport_management_sys.users' doesn't exist in C:\wamp64\www\PHP Core Template\core\Validator.php:99
+Stack trace:
+#0 C:\wamp64\www\PHP Core Template\core\Validator.php(99): PDOStatement->execute()
+#1 C:\wamp64\www\PHP Core Template\core\Validator.php(67): Core\Validator->isExists('users', 'email', 'ggj@a.com', NULL)
+#2 C:\wamp64\www\PHP Core Template\core\Validator.php(26): Core\Validator->applyRule('email', 'ggj@a.com', 'unique:users', Array, NULL)
+#3 C:\wamp64\www\PHP Core Template\app\Requests\RegisterRequest.php(16): Core\Validator->validate(Array, Array)
+#4 C:\wamp64\www\PHP Core Template\app\Controllers\RegisterController.php(25): App\Requests\RegisterRequest::validateRegistration(Array)
+#5 [internal function]: App\Controllers\RegisterController->register()
+#6 C:\wamp64\www\PHP Core Template\core\Router.php(204): call_user_func_array(Array, Array)
+#7 C:\wamp64\www\PHP Core Template\core\Router.php(176): Core\Router->handleControllerAction('RegisterControl...', Array)
+#8 C:\wamp64\www\PHP Core Template\core\Router.php(70): Core\Router->handleAction('RegisterControl...', Array)
+#9 C:\wamp64\www\PHP Core Template\public\index.php(13): Core\Router->dispatch('register')
+#10 {main}
+  thrown in C:\wamp64\www\PHP Core Template\core\Validator.php on line 99
